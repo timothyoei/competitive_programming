@@ -1,0 +1,15 @@
+version: "3"
+services:
+  cp:
+    build:
+      context: .
+    volumes:
+      - .:/playground
+    networks:
+      - cp
+    ports:
+      - "8100:8100"
+    tty: true
+networks:
+  cp:
+    driver: bridge

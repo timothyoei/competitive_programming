@@ -1,0 +1,17 @@
+{
+  "name": "Competitive Programming",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "cp",
+  "workspaceFolder": "/playground",
+  "forwardPorts": [
+    8100
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "DivyanshuAgrawal.competitive-programming-helper"
+      ]
+    }
+  }
+}
