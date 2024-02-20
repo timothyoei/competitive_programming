@@ -9,8 +9,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-vscode.cpptools",
-        "DivyanshuAgrawal.competitive-programming-helper"
+        "ms-vscode.cpptools"
       ]
     }
   }
